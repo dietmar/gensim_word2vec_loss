@@ -24,7 +24,7 @@ After epoch 9: latest training loss is 107571.671875
 After epoch 10: latest training loss is 107939.546875
 ```
 
-![] (word2vec_loss_maxalpha_0.1.png)
+![](word2vec_loss_maxalpha_0.1.png)
 
 This is nice, it looks like a typical epoch vs. loss plot: monotonically decreasing, large changes at first and then less and less changes.
 
@@ -52,6 +52,6 @@ After epoch 9: latest training loss is 10707312.000000
 After epoch 10: latest training loss is 10796318.000000
 ```
 
-![] (word2vec_loss_maxalpha_0.05.png)
+![](word2vec_loss_maxalpha_0.05.png)
 
 With these smaller learning rates, the loss ***increases*** over time!?
