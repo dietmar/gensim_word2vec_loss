@@ -1,0 +1,272 @@
+Downloading data (will use 340M disk space) ... done.
+2017-07-26 16:57:41,677 [doc2vec] : collecting all words and their counts
+2017-07-26 16:57:41,775 [doc2vec] : PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2017-07-26 16:57:42,175 [doc2vec] : PROGRESS: at sentence #10000, processed 317372 words, keeping 37330 word types
+2017-07-26 16:57:42,548 [doc2vec] : PROGRESS: at sentence #20000, processed 642820 words, keeping 60292 word types
+2017-07-26 16:57:42,917 [doc2vec] : PROGRESS: at sentence #30000, processed 954072 words, keeping 78070 word types
+2017-07-26 16:57:43,260 [doc2vec] : PROGRESS: at sentence #40000, processed 1246727 words, keeping 92614 word types
+2017-07-26 16:57:43,647 [doc2vec] : PROGRESS: at sentence #50000, processed 1582017 words, keeping 108273 word types
+2017-07-26 16:57:44,060 [doc2vec] : PROGRESS: at sentence #60000, processed 1898143 words, keeping 121889 word types
+2017-07-26 16:57:44,442 [doc2vec] : PROGRESS: at sentence #70000, processed 2219053 words, keeping 135001 word types
+2017-07-26 16:57:44,817 [doc2vec] : PROGRESS: at sentence #80000, processed 2539367 words, keeping 147384 word types
+2017-07-26 16:57:45,191 [doc2vec] : PROGRESS: at sentence #90000, processed 2864484 words, keeping 157924 word types
+2017-07-26 16:57:45,531 [doc2vec] : collected 170094 word types from a corpus of 3180173 raw words and 100000 sentences
+2017-07-26 16:57:45,531 [doc2vec] : Loading a fresh vocabulary
+2017-07-26 16:57:45,635 [doc2vec] : min_count=5 retains 30432 unique words (17% of original 170094, drops 139662)
+2017-07-26 16:57:45,635 [doc2vec] : min_count=5 leaves 2979628 word corpus (93% of original 3180173, drops 200545)
+2017-07-26 16:57:45,696 [doc2vec] : deleting the raw counts dictionary of 170094 items
+2017-07-26 16:57:45,703 [doc2vec] : sample=0.001 downsamples 53 most-common words
+2017-07-26 16:57:45,703 [doc2vec] : downsampling leaves estimated 2326357 word corpus (78.1% of prior 2979628)
+2017-07-26 16:57:45,703 [doc2vec] : estimated required memory for 30432 words and 300 dimensions: 130857600 bytes
+2017-07-26 16:57:45,730 [doc2vec] : constructing a huffman tree from 30432 words
+2017-07-26 16:57:46,454 [doc2vec] : built huffman tree with maximum node depth 19
+2017-07-26 16:57:46,508 [doc2vec] : resetting layer weights
+2017-07-26 16:57:46,857 [doc2vec] : training model with 16 workers on 30432 vocabulary and 300 features, using sg=0 hs=1 sample=0.001 negative=5 window=5
+2017-07-26 16:57:47,908 [doc2vec] : PROGRESS: at 13.19% examples, 292965 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:48,924 [doc2vec] : PROGRESS: at 29.42% examples, 331804 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:49,959 [doc2vec] : PROGRESS: at 45.24% examples, 336933 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:50,970 [doc2vec] : PROGRESS: at 60.79% examples, 342826 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:51,978 [doc2vec] : PROGRESS: at 75.41% examples, 342250 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:53,015 [doc2vec] : PROGRESS: at 91.23% examples, 345022 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:53,488 [doc2vec] : worker thread finished; awaiting finish of 15 more threads
+2017-07-26 16:57:53,488 [doc2vec] : worker thread finished; awaiting finish of 14 more threads
+2017-07-26 16:57:53,494 [doc2vec] : worker thread finished; awaiting finish of 13 more threads
+2017-07-26 16:57:53,494 [doc2vec] : worker thread finished; awaiting finish of 12 more threads
+2017-07-26 16:57:53,495 [doc2vec] : worker thread finished; awaiting finish of 11 more threads
+2017-07-26 16:57:53,495 [doc2vec] : worker thread finished; awaiting finish of 10 more threads
+2017-07-26 16:57:53,495 [doc2vec] : worker thread finished; awaiting finish of 9 more threads
+2017-07-26 16:57:53,495 [doc2vec] : worker thread finished; awaiting finish of 8 more threads
+2017-07-26 16:57:53,495 [doc2vec] : worker thread finished; awaiting finish of 7 more threads
+2017-07-26 16:57:53,495 [doc2vec] : worker thread finished; awaiting finish of 6 more threads
+2017-07-26 16:57:53,495 [doc2vec] : worker thread finished; awaiting finish of 5 more threads
+2017-07-26 16:57:53,497 [doc2vec] : worker thread finished; awaiting finish of 4 more threads
+2017-07-26 16:57:53,504 [doc2vec] : worker thread finished; awaiting finish of 3 more threads
+2017-07-26 16:57:53,520 [doc2vec] : worker thread finished; awaiting finish of 2 more threads
+2017-07-26 16:57:53,526 [doc2vec] : worker thread finished; awaiting finish of 1 more threads
+2017-07-26 16:57:53,529 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-07-26 16:57:53,529 [doc2vec] : training on 3180173 raw words (2326501 effective words) took 6.7s, 348877 effective words/s
+2017-07-26 16:57:53,530 [doc2vec] : training model with 16 workers on 30432 vocabulary and 300 features, using sg=0 hs=1 sample=0.001 negative=5 window=5
+After epoch 1: latest training loss is 10294905.000000
+2017-07-26 16:57:54,535 [doc2vec] : PROGRESS: at 13.59% examples, 313142 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:55,537 [doc2vec] : PROGRESS: at 30.09% examples, 348892 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:56,554 [doc2vec] : PROGRESS: at 47.90% examples, 367113 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:57,562 [doc2vec] : PROGRESS: at 63.18% examples, 363787 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:58,595 [doc2vec] : PROGRESS: at 79.10% examples, 362788 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:59,605 [doc2vec] : PROGRESS: at 95.12% examples, 363735 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:57:59,857 [doc2vec] : worker thread finished; awaiting finish of 15 more threads
+2017-07-26 16:57:59,857 [doc2vec] : worker thread finished; awaiting finish of 14 more threads
+2017-07-26 16:57:59,858 [doc2vec] : worker thread finished; awaiting finish of 13 more threads
+2017-07-26 16:57:59,858 [doc2vec] : worker thread finished; awaiting finish of 12 more threads
+2017-07-26 16:57:59,858 [doc2vec] : worker thread finished; awaiting finish of 11 more threads
+2017-07-26 16:57:59,858 [doc2vec] : worker thread finished; awaiting finish of 10 more threads
+2017-07-26 16:57:59,858 [doc2vec] : worker thread finished; awaiting finish of 9 more threads
+2017-07-26 16:57:59,858 [doc2vec] : worker thread finished; awaiting finish of 8 more threads
+2017-07-26 16:57:59,858 [doc2vec] : worker thread finished; awaiting finish of 7 more threads
+2017-07-26 16:57:59,858 [doc2vec] : worker thread finished; awaiting finish of 6 more threads
+2017-07-26 16:57:59,858 [doc2vec] : worker thread finished; awaiting finish of 5 more threads
+2017-07-26 16:57:59,858 [doc2vec] : worker thread finished; awaiting finish of 4 more threads
+2017-07-26 16:57:59,861 [doc2vec] : worker thread finished; awaiting finish of 3 more threads
+2017-07-26 16:57:59,881 [doc2vec] : worker thread finished; awaiting finish of 2 more threads
+2017-07-26 16:57:59,886 [doc2vec] : worker thread finished; awaiting finish of 1 more threads
+2017-07-26 16:57:59,897 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-07-26 16:57:59,897 [doc2vec] : training on 3180173 raw words (2325237 effective words) took 6.4s, 365352 effective words/s
+2017-07-26 16:57:59,897 [doc2vec] : training model with 16 workers on 30432 vocabulary and 300 features, using sg=0 hs=1 sample=0.001 negative=5 window=5
+After epoch 2: latest training loss is 1203828.125000
+2017-07-26 16:58:00,925 [doc2vec] : PROGRESS: at 13.19% examples, 299278 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:01,946 [doc2vec] : PROGRESS: at 30.09% examples, 341829 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:02,947 [doc2vec] : PROGRESS: at 47.65% examples, 361914 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:03,972 [doc2vec] : PROGRESS: at 64.33% examples, 367424 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:04,995 [doc2vec] : PROGRESS: at 81.32% examples, 370792 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:05,998 [doc2vec] : PROGRESS: at 97.88% examples, 373208 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:06,077 [doc2vec] : worker thread finished; awaiting finish of 15 more threads
+2017-07-26 16:58:06,077 [doc2vec] : worker thread finished; awaiting finish of 14 more threads
+2017-07-26 16:58:06,077 [doc2vec] : worker thread finished; awaiting finish of 13 more threads
+2017-07-26 16:58:06,078 [doc2vec] : worker thread finished; awaiting finish of 12 more threads
+2017-07-26 16:58:06,078 [doc2vec] : worker thread finished; awaiting finish of 11 more threads
+2017-07-26 16:58:06,078 [doc2vec] : worker thread finished; awaiting finish of 10 more threads
+2017-07-26 16:58:06,078 [doc2vec] : worker thread finished; awaiting finish of 9 more threads
+2017-07-26 16:58:06,078 [doc2vec] : worker thread finished; awaiting finish of 8 more threads
+2017-07-26 16:58:06,078 [doc2vec] : worker thread finished; awaiting finish of 7 more threads
+2017-07-26 16:58:06,078 [doc2vec] : worker thread finished; awaiting finish of 6 more threads
+2017-07-26 16:58:06,078 [doc2vec] : worker thread finished; awaiting finish of 5 more threads
+2017-07-26 16:58:06,093 [doc2vec] : worker thread finished; awaiting finish of 4 more threads
+2017-07-26 16:58:06,095 [doc2vec] : worker thread finished; awaiting finish of 3 more threads
+2017-07-26 16:58:06,099 [doc2vec] : worker thread finished; awaiting finish of 2 more threads
+2017-07-26 16:58:06,114 [doc2vec] : worker thread finished; awaiting finish of 1 more threads
+2017-07-26 16:58:06,118 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-07-26 16:58:06,119 [doc2vec] : training on 3180173 raw words (2326757 effective words) took 6.2s, 374157 effective words/s
+2017-07-26 16:58:06,119 [doc2vec] : training model with 16 workers on 30432 vocabulary and 300 features, using sg=0 hs=1 sample=0.001 negative=5 window=5
+After epoch 3: latest training loss is 245310.640625
+2017-07-26 16:58:07,134 [doc2vec] : PROGRESS: at 13.59% examples, 309769 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:08,151 [doc2vec] : PROGRESS: at 29.42% examples, 337379 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:09,164 [doc2vec] : PROGRESS: at 47.06% examples, 357456 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:10,185 [doc2vec] : PROGRESS: at 64.33% examples, 368127 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:11,220 [doc2vec] : PROGRESS: at 81.32% examples, 370585 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:12,222 [doc2vec] : PROGRESS: at 97.88% examples, 373052 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:12,304 [doc2vec] : worker thread finished; awaiting finish of 15 more threads
+2017-07-26 16:58:12,305 [doc2vec] : worker thread finished; awaiting finish of 14 more threads
+2017-07-26 16:58:12,305 [doc2vec] : worker thread finished; awaiting finish of 13 more threads
+2017-07-26 16:58:12,305 [doc2vec] : worker thread finished; awaiting finish of 12 more threads
+2017-07-26 16:58:12,305 [doc2vec] : worker thread finished; awaiting finish of 11 more threads
+2017-07-26 16:58:12,305 [doc2vec] : worker thread finished; awaiting finish of 10 more threads
+2017-07-26 16:58:12,305 [doc2vec] : worker thread finished; awaiting finish of 9 more threads
+2017-07-26 16:58:12,305 [doc2vec] : worker thread finished; awaiting finish of 8 more threads
+2017-07-26 16:58:12,305 [doc2vec] : worker thread finished; awaiting finish of 7 more threads
+2017-07-26 16:58:12,305 [doc2vec] : worker thread finished; awaiting finish of 6 more threads
+2017-07-26 16:58:12,305 [doc2vec] : worker thread finished; awaiting finish of 5 more threads
+2017-07-26 16:58:12,317 [doc2vec] : worker thread finished; awaiting finish of 4 more threads
+2017-07-26 16:58:12,318 [doc2vec] : worker thread finished; awaiting finish of 3 more threads
+2017-07-26 16:58:12,337 [doc2vec] : worker thread finished; awaiting finish of 2 more threads
+2017-07-26 16:58:12,337 [doc2vec] : worker thread finished; awaiting finish of 1 more threads
+2017-07-26 16:58:12,338 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-07-26 16:58:12,338 [doc2vec] : training on 3180173 raw words (2326913 effective words) took 6.2s, 374301 effective words/s
+2017-07-26 16:58:12,338 [doc2vec] : training model with 16 workers on 30432 vocabulary and 300 features, using sg=0 hs=1 sample=0.001 negative=5 window=5
+After epoch 4: latest training loss is 166148.406250
+2017-07-26 16:58:13,358 [doc2vec] : PROGRESS: at 14.10% examples, 322505 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:14,363 [doc2vec] : PROGRESS: at 30.09% examples, 345925 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:15,371 [doc2vec] : PROGRESS: at 47.06% examples, 358923 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:16,380 [doc2vec] : PROGRESS: at 63.18% examples, 363145 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:17,388 [doc2vec] : PROGRESS: at 78.50% examples, 361191 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:18,415 [doc2vec] : PROGRESS: at 95.12% examples, 363760 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:18,642 [doc2vec] : worker thread finished; awaiting finish of 15 more threads
+2017-07-26 16:58:18,642 [doc2vec] : worker thread finished; awaiting finish of 14 more threads
+2017-07-26 16:58:18,642 [doc2vec] : worker thread finished; awaiting finish of 13 more threads
+2017-07-26 16:58:18,643 [doc2vec] : worker thread finished; awaiting finish of 12 more threads
+2017-07-26 16:58:18,643 [doc2vec] : worker thread finished; awaiting finish of 11 more threads
+2017-07-26 16:58:18,643 [doc2vec] : worker thread finished; awaiting finish of 10 more threads
+2017-07-26 16:58:18,643 [doc2vec] : worker thread finished; awaiting finish of 9 more threads
+2017-07-26 16:58:18,643 [doc2vec] : worker thread finished; awaiting finish of 8 more threads
+2017-07-26 16:58:18,643 [doc2vec] : worker thread finished; awaiting finish of 7 more threads
+2017-07-26 16:58:18,643 [doc2vec] : worker thread finished; awaiting finish of 6 more threads
+2017-07-26 16:58:18,643 [doc2vec] : worker thread finished; awaiting finish of 5 more threads
+2017-07-26 16:58:18,655 [doc2vec] : worker thread finished; awaiting finish of 4 more threads
+2017-07-26 16:58:18,658 [doc2vec] : worker thread finished; awaiting finish of 3 more threads
+2017-07-26 16:58:18,676 [doc2vec] : worker thread finished; awaiting finish of 2 more threads
+2017-07-26 16:58:18,693 [doc2vec] : worker thread finished; awaiting finish of 1 more threads
+2017-07-26 16:58:18,694 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-07-26 16:58:18,694 [doc2vec] : training on 3180173 raw words (2326344 effective words) took 6.4s, 366107 effective words/s
+2017-07-26 16:58:18,694 [doc2vec] : training model with 16 workers on 30432 vocabulary and 300 features, using sg=0 hs=1 sample=0.001 negative=5 window=5
+After epoch 5: latest training loss is 136867.781250
+2017-07-26 16:58:19,715 [doc2vec] : PROGRESS: at 14.10% examples, 322867 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:20,722 [doc2vec] : PROGRESS: at 31.12% examples, 360056 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:21,740 [doc2vec] : PROGRESS: at 49.02% examples, 371837 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:22,748 [doc2vec] : PROGRESS: at 65.62% examples, 376464 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:23,752 [doc2vec] : PROGRESS: at 82.70% examples, 379508 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:24,774 [doc2vec] : PROGRESS: at 98.24% examples, 375569 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:24,813 [doc2vec] : worker thread finished; awaiting finish of 15 more threads
+2017-07-26 16:58:24,813 [doc2vec] : worker thread finished; awaiting finish of 14 more threads
+2017-07-26 16:58:24,813 [doc2vec] : worker thread finished; awaiting finish of 13 more threads
+2017-07-26 16:58:24,813 [doc2vec] : worker thread finished; awaiting finish of 12 more threads
+2017-07-26 16:58:24,813 [doc2vec] : worker thread finished; awaiting finish of 11 more threads
+2017-07-26 16:58:24,813 [doc2vec] : worker thread finished; awaiting finish of 10 more threads
+2017-07-26 16:58:24,813 [doc2vec] : worker thread finished; awaiting finish of 9 more threads
+2017-07-26 16:58:24,813 [doc2vec] : worker thread finished; awaiting finish of 8 more threads
+2017-07-26 16:58:24,813 [doc2vec] : worker thread finished; awaiting finish of 7 more threads
+2017-07-26 16:58:24,813 [doc2vec] : worker thread finished; awaiting finish of 6 more threads
+2017-07-26 16:58:24,814 [doc2vec] : worker thread finished; awaiting finish of 5 more threads
+2017-07-26 16:58:24,822 [doc2vec] : worker thread finished; awaiting finish of 4 more threads
+2017-07-26 16:58:24,822 [doc2vec] : worker thread finished; awaiting finish of 3 more threads
+2017-07-26 16:58:24,841 [doc2vec] : worker thread finished; awaiting finish of 2 more threads
+2017-07-26 16:58:24,857 [doc2vec] : worker thread finished; awaiting finish of 1 more threads
+2017-07-26 16:58:24,857 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-07-26 16:58:24,858 [doc2vec] : training on 3180173 raw words (2325942 effective words) took 6.2s, 377560 effective words/s
+2017-07-26 16:58:24,858 [doc2vec] : training model with 16 workers on 30432 vocabulary and 300 features, using sg=0 hs=1 sample=0.001 negative=5 window=5
+After epoch 6: latest training loss is 121953.609375
+2017-07-26 16:58:25,877 [doc2vec] : PROGRESS: at 13.19% examples, 301602 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:26,903 [doc2vec] : PROGRESS: at 30.09% examples, 342552 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:27,916 [doc2vec] : PROGRESS: at 47.33% examples, 358536 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:28,920 [doc2vec] : PROGRESS: at 63.73% examples, 364889 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:29,926 [doc2vec] : PROGRESS: at 80.64% examples, 370152 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:30,938 [doc2vec] : PROGRESS: at 96.09% examples, 367304 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 15 more threads
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 14 more threads
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 13 more threads
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 12 more threads
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 11 more threads
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 10 more threads
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 9 more threads
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 8 more threads
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 7 more threads
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 6 more threads
+2017-07-26 16:58:31,102 [doc2vec] : worker thread finished; awaiting finish of 5 more threads
+2017-07-26 16:58:31,114 [doc2vec] : worker thread finished; awaiting finish of 4 more threads
+2017-07-26 16:58:31,115 [doc2vec] : worker thread finished; awaiting finish of 3 more threads
+2017-07-26 16:58:31,134 [doc2vec] : worker thread finished; awaiting finish of 2 more threads
+2017-07-26 16:58:31,135 [doc2vec] : worker thread finished; awaiting finish of 1 more threads
+2017-07-26 16:58:31,136 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-07-26 16:58:31,136 [doc2vec] : training on 3180173 raw words (2326889 effective words) took 6.3s, 370799 effective words/s
+2017-07-26 16:58:31,136 [doc2vec] : training model with 16 workers on 30432 vocabulary and 300 features, using sg=0 hs=1 sample=0.001 negative=5 window=5
+After epoch 7: latest training loss is 111192.812500
+2017-07-26 16:58:32,150 [doc2vec] : PROGRESS: at 14.10% examples, 324500 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:33,154 [doc2vec] : PROGRESS: at 31.12% examples, 361786 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:34,190 [doc2vec] : PROGRESS: at 49.02% examples, 370760 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:35,230 [doc2vec] : PROGRESS: at 66.02% examples, 374621 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:36,237 [doc2vec] : PROGRESS: at 83.05% examples, 377830 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:37,158 [doc2vec] : worker thread finished; awaiting finish of 15 more threads
+2017-07-26 16:58:37,158 [doc2vec] : worker thread finished; awaiting finish of 14 more threads
+2017-07-26 16:58:37,158 [doc2vec] : worker thread finished; awaiting finish of 13 more threads
+2017-07-26 16:58:37,158 [doc2vec] : worker thread finished; awaiting finish of 12 more threads
+2017-07-26 16:58:37,158 [doc2vec] : worker thread finished; awaiting finish of 11 more threads
+2017-07-26 16:58:37,158 [doc2vec] : worker thread finished; awaiting finish of 10 more threads
+2017-07-26 16:58:37,158 [doc2vec] : worker thread finished; awaiting finish of 9 more threads
+2017-07-26 16:58:37,158 [doc2vec] : worker thread finished; awaiting finish of 8 more threads
+2017-07-26 16:58:37,158 [doc2vec] : worker thread finished; awaiting finish of 7 more threads
+2017-07-26 16:58:37,158 [doc2vec] : worker thread finished; awaiting finish of 6 more threads
+2017-07-26 16:58:37,159 [doc2vec] : worker thread finished; awaiting finish of 5 more threads
+2017-07-26 16:58:37,170 [doc2vec] : worker thread finished; awaiting finish of 4 more threads
+2017-07-26 16:58:37,172 [doc2vec] : worker thread finished; awaiting finish of 3 more threads
+2017-07-26 16:58:37,185 [doc2vec] : worker thread finished; awaiting finish of 2 more threads
+2017-07-26 16:58:37,192 [doc2vec] : worker thread finished; awaiting finish of 1 more threads
+2017-07-26 16:58:37,192 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-07-26 16:58:37,192 [doc2vec] : training on 3180173 raw words (2327538 effective words) took 6.1s, 384436 effective words/s
+2017-07-26 16:58:37,192 [doc2vec] : training model with 16 workers on 30432 vocabulary and 300 features, using sg=0 hs=1 sample=0.001 negative=5 window=5
+After epoch 8: latest training loss is 109865.835938
+2017-07-26 16:58:38,255 [doc2vec] : PROGRESS: at 14.10% examples, 309885 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:39,289 [doc2vec] : PROGRESS: at 31.12% examples, 347909 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:40,298 [doc2vec] : PROGRESS: at 48.70% examples, 362054 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:41,314 [doc2vec] : PROGRESS: at 66.02% examples, 371837 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:42,355 [doc2vec] : PROGRESS: at 83.11% examples, 373020 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:43,359 [doc2vec] : worker thread finished; awaiting finish of 15 more threads
+2017-07-26 16:58:43,360 [doc2vec] : worker thread finished; awaiting finish of 14 more threads
+2017-07-26 16:58:43,360 [doc2vec] : worker thread finished; awaiting finish of 13 more threads
+2017-07-26 16:58:43,360 [doc2vec] : worker thread finished; awaiting finish of 12 more threads
+2017-07-26 16:58:43,360 [doc2vec] : worker thread finished; awaiting finish of 11 more threads
+2017-07-26 16:58:43,360 [doc2vec] : worker thread finished; awaiting finish of 10 more threads
+2017-07-26 16:58:43,360 [doc2vec] : worker thread finished; awaiting finish of 9 more threads
+2017-07-26 16:58:43,360 [doc2vec] : worker thread finished; awaiting finish of 8 more threads
+2017-07-26 16:58:43,360 [doc2vec] : worker thread finished; awaiting finish of 7 more threads
+2017-07-26 16:58:43,360 [doc2vec] : worker thread finished; awaiting finish of 6 more threads
+2017-07-26 16:58:43,360 [doc2vec] : worker thread finished; awaiting finish of 5 more threads
+2017-07-26 16:58:43,369 [doc2vec] : PROGRESS: at 99.01% examples, 373147 words/s, in_qsize 4, out_qsize 1
+2017-07-26 16:58:43,369 [doc2vec] : worker thread finished; awaiting finish of 4 more threads
+2017-07-26 16:58:43,369 [doc2vec] : worker thread finished; awaiting finish of 3 more threads
+2017-07-26 16:58:43,385 [doc2vec] : worker thread finished; awaiting finish of 2 more threads
+2017-07-26 16:58:43,387 [doc2vec] : worker thread finished; awaiting finish of 1 more threads
+2017-07-26 16:58:43,390 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-07-26 16:58:43,391 [doc2vec] : training on 3180173 raw words (2326018 effective words) took 6.2s, 375383 effective words/s
+2017-07-26 16:58:43,391 [doc2vec] : training model with 16 workers on 30432 vocabulary and 300 features, using sg=0 hs=1 sample=0.001 negative=5 window=5
+After epoch 9: latest training loss is 107571.671875
+2017-07-26 16:58:44,394 [doc2vec] : PROGRESS: at 14.98% examples, 349672 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:45,397 [doc2vec] : PROGRESS: at 31.44% examples, 367049 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:46,398 [doc2vec] : PROGRESS: at 47.58% examples, 366576 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:47,429 [doc2vec] : PROGRESS: at 65.02% examples, 374026 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:48,444 [doc2vec] : PROGRESS: at 82.06% examples, 376686 words/s, in_qsize 0, out_qsize 0
+2017-07-26 16:58:49,451 [doc2vec] : worker thread finished; awaiting finish of 15 more threads
+2017-07-26 16:58:49,452 [doc2vec] : worker thread finished; awaiting finish of 14 more threads
+2017-07-26 16:58:49,452 [doc2vec] : worker thread finished; awaiting finish of 13 more threads
+2017-07-26 16:58:49,452 [doc2vec] : worker thread finished; awaiting finish of 12 more threads
+2017-07-26 16:58:49,452 [doc2vec] : worker thread finished; awaiting finish of 11 more threads
+2017-07-26 16:58:49,452 [doc2vec] : worker thread finished; awaiting finish of 10 more threads
+2017-07-26 16:58:49,452 [doc2vec] : worker thread finished; awaiting finish of 9 more threads
+2017-07-26 16:58:49,452 [doc2vec] : worker thread finished; awaiting finish of 8 more threads
+2017-07-26 16:58:49,452 [doc2vec] : worker thread finished; awaiting finish of 7 more threads
+2017-07-26 16:58:49,452 [doc2vec] : worker thread finished; awaiting finish of 6 more threads
+2017-07-26 16:58:49,452 [doc2vec] : worker thread finished; awaiting finish of 5 more threads
+2017-07-26 16:58:49,464 [doc2vec] : PROGRESS: at 99.01% examples, 379421 words/s, in_qsize 4, out_qsize 1
+2017-07-26 16:58:49,464 [doc2vec] : worker thread finished; awaiting finish of 4 more threads
+2017-07-26 16:58:49,465 [doc2vec] : worker thread finished; awaiting finish of 3 more threads
+2017-07-26 16:58:49,468 [doc2vec] : worker thread finished; awaiting finish of 2 more threads
+2017-07-26 16:58:49,485 [doc2vec] : worker thread finished; awaiting finish of 1 more threads
+2017-07-26 16:58:49,486 [doc2vec] : worker thread finished; awaiting finish of 0 more threads
+2017-07-26 16:58:49,486 [doc2vec] : training on 3180173 raw words (2325307 effective words) took 6.1s, 381636 effective words/s
+After epoch 10: latest training loss is 107939.546875
