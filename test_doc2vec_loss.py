@@ -100,7 +100,11 @@ def data_generator(maxcount):
             yield wl
             count += 1
             if count >= maxcount:
+                pool.close()
+                pool.join()
                 return
+    pool.close()
+    pool.join()
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
