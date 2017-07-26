@@ -1,6 +1,6 @@
 We want to try out the loss reporting functionality as discussed in [gensim issue #999](https://github.com/RaRe-Technologies/gensim/issues/999) and (partially) implemented in [gensim PR #1201](https://github.com/RaRe-Technologies/gensim/pull/1201), using the `develop` branch of gensim as of 2017-07-23 (commit [da383bf4a4046b134d95d9085eedb163dd5e0c46](https://github.com/RaRe-Technologies/gensim/commit/da383bf4a4046b134d95d9085eedb163dd5e0c46)), and the first 100k posts (> 3M words) from the [One Million Posts Corpus](https://ofai.github.io/million-post-corpus) as data.
 
-The [test script is here]()
+The [test script is here](test_doc2vec_loss.py)
 
 ```bash
 MAXALPHA=0.1
